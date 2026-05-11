@@ -50,13 +50,13 @@ export default function LoginForm() {
       {/* Username */}
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1">
-          Username
+          Email
         </label>
         <input
-          type="text"
+          type="email"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          placeholder="Enter your username"
+          placeholder="Enter your email"
           required
           autoFocus
           className="w-full border border-gray-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
